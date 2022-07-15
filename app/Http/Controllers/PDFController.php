@@ -11,7 +11,7 @@ class PDFController extends Controller
     public function index()
     {
         $data["email"] = "scm.theinthaymannhnin@gmail.com";
-        $data["title"] = "From TheintHaymannHnin.com";
+        $data["title"] = "From TheintHaymannHnin";
         $data["body"] = "This is Demo";
   
         $pdf = PDF::loadView('emails.myTestMail', $data);
